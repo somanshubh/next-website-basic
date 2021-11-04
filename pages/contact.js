@@ -2,7 +2,6 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Nav from '../component/navbar'
 import Footer from '../component/footer'
-import link from 'next/link'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -14,8 +13,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <Nav/>
-        this is index page
-        <Footer/>
+        this is contact pages
+                <Footer/>
 
 
       </main>
